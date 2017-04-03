@@ -1,0 +1,23 @@
+{
+  "name": "didi-console",
+  "version": "1.0.0",
+  "description": "didi 控制台console组件",
+  "main": "didiConsole.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startheart/didiConsole.git"
+  },
+  "keywords": [
+    "didi",
+    "console"
+  ],
+  "author": "sgoddon@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/startheart/didiConsole/issues"
+  },
+  "homepage": "https://github.com/startheart/didiConsole#readme"
+}

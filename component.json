@@ -1,0 +1,10 @@
+{
+	"name": "didiConsole",
+	"main": "didiConsole.js",
+	"version": "0.0.1",
+	"files": [
+		"didiConsole.js",
+		"didiConsole.css",
+		"didiConsole.html"
+	]
+}
