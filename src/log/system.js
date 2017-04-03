@@ -4,7 +4,7 @@
  */
 
 import * as tool from '../lib/tool.js';
-import VConsoleLogTab from './log.js';
+import DidiConsoleLogTab from './log.js';
 import tplTabbox from './tabbox_system.html';
 
 class DidiConsoleSystemTab extends DidiConsoleLogTab {

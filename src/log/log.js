@@ -6,7 +6,7 @@
 
 import * as tool from '../lib/tool.js';
 import $ from '../lib/query.js';
-import VConsolePlugin from '../lib/plugin.js';
+import DidiConsolePlugin from '../lib/plugin.js';
 import tplItem from './item.html';
 import tplFold from './item_fold.html';
 import tplFoldCode from './item_fold_code.html';

@@ -1,7 +1,7 @@
 
 import $ from '../lib/query.js';
 import * as tool from '../lib/tool.js';
-import VConsoleLogTab from './log.js';
+import DidiConsoleLogTab from './log.js';
 import tplTabbox from './tabbox_default.html';
 import tplItemCode from './item_code.html';
 
