@@ -1,9 +1,9 @@
 
 import $ from '../lib/query.js';
 import * as tool from '../lib/tool.js';
-import DidiConsoleLogTab from './log.js';
-const tplTabbox = __inline('./tabbox_default.html');
-const tplItemCode = __inline('./item_code.html');
+import VConsoleLogTab from './log.js';
+import tplTabbox from './tabbox_default.html';
+import tplItemCode from './item_code.html';
 
 class DidiConsoleDefaultTab extends DidiConsoleLogTab {
 

@@ -5,10 +5,10 @@
 
 import $ from '../lib/query.js';
 import * as tool from '../lib/tool.js';
-import DidiConsolePlugin from '../lib/plugin.js';
-const tplTabbox = __inline('./tabbox.html');
-const tplHeader = __inline('./header.html');
-const tplItem = __inline('./item.html');
+import VConsolePlugin from '../lib/plugin.js';
+import tplTabbox from './tabbox.html';
+import tplHeader from './header.html';
+import tplItem from './item.html';
 
 class DidiConsoleNetworkTab extends DidiConsolePlugin {
 

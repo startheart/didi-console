@@ -4,8 +4,8 @@
  */
 
 import * as tool from '../lib/tool.js';
-import DidiConsoleLogTab from './log.js';
-const tplTabbox = __inline('./tabbox_system.html');
+import VConsoleLogTab from './log.js';
+import tplTabbox from './tabbox_system.html';
 
 class DidiConsoleSystemTab extends DidiConsoleLogTab {
 

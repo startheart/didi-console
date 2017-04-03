@@ -6,10 +6,10 @@
 
 import * as tool from '../lib/tool.js';
 import $ from '../lib/query.js';
-import DidiConsolePlugin from '../lib/plugin.js';
-const tplItem = __inline('./item.html');
-const tplFold = __inline('./item_fold.html');
-const tplFoldCode = __inline('./item_fold_code.html');
+import VConsolePlugin from '../lib/plugin.js';
+import tplItem from './item.html';
+import tplFold from './item_fold.html';
+import tplFoldCode from './item_fold_code.html';
 
 class DidiConsoleLogTab extends DidiConsolePlugin {
 

@@ -1,22 +1,20 @@
 
-// import pkg from '../component.json';
+import pkg from '../../package.json';
 import * as tool from '../lib/tool.js';
 import $ from '../lib/query.js';
-// import './core.less';
-const tpl = __inline('./core.html');
-const tplTabbar = __inline('./tabbar.html');
-const tplTabbox = __inline('./tabbox.html');
-const tplTopBarItem = __inline('./topbar_item.html');
-const tplToolItem = __inline('./tool_item.html');
-
-const __VERSION__ ='0.0.1'
+import './core.less';
+import tpl from './core.html';
+import tplTabbar from './tabbar.html';
+import tplTabbox from './tabbox.html';
+import tplTopBarItem from './topbar_item.html';
+import tplToolItem from './tool_item.html';
 
 class DidiConsole {
 
   constructor() {
     let that = this;
 
-    this.version = __VERSION__;
+    this.version = pkg.version;
     this.html = tpl;
     this.$dom = null;
     this.activedTab = '';

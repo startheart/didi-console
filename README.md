@@ -1,23 +1,40 @@
-# didiConsole
 
-## 安装
+didi-console
+==============================
+[npm version](https://www.npmjs.com/package/didi-console)
 
-进入fis-didi项目根目录(如果没有则通过`didi init project`初始化一个)
+一个轻量、可拓展、针对手机网页的前端开发者调试面板。
 
-```bash
-cd <project_path>
-#安装 didiConsole
-# didi-component是该组件仓库所属groups，如果只不加(didi install didiConsole)默认使用 didi-component/didiConsole
-didi install didi-component/didiConsole
+
+## 特性
+
+- 查看 console 日志
+- 查看网络请求
+- 手动执行 JS 命令行
+- 自定义插件
+
+
+## 上手
+
+npm 安装：
+
+```
+npm install didi-console
 ```
 
-## 使用
+引入 `dist/didiConsole.min.js` 到项目中：
 
-在项目任意可编写JS代码处使用
-
-```javascript
-//获取组件
-var didiConsole = require('didiConsole');
-//调用一些方法(someMethod只是举例)
-didiConsole.someMethod();
+```html
+<script src="path/to/didiConsole.min.js"></script>
+<script>
+console.log('Hello world');
+// 然后点击右下角 vConsole 按钮即可查看到 log
+</script>
 ```
+
+## 特别感谢 [vConsole](https://github.com/WechatFE/vConsole)
+didi-console 扩展自 WechatFE团队开发的 [vConsole](https://github.com/WechatFE/vConsole)
+
+## License
+
+The MIT License (http://opensource.org/licenses/MIT)

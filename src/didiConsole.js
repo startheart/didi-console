@@ -1,3 +1,8 @@
+/**
+ * A Front-End Console Panel for Mobile Webpage
+ *
+ * @author sgoddon@163.com
+ */
 
 // classes
 import DidiConsole from './core/core.js';
