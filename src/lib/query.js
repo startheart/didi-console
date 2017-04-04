@@ -1,3 +1,15 @@
+/**
+ * DOM related Functions
+ *
+ * @author WechatFE
+ */
+
+/**
+ * DOM related Functions
+ *
+ * 2017.04.02 扩展
+ * @author startheart (sgoddon@163.com)
+ */
 
 import {isArray} from '../lib/tool.js';
 import render from '../lib/mito.js';

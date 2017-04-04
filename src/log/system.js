@@ -1,6 +1,14 @@
 /**
- * didiConsole System Tab
+ * vConsole System Tab
  *
+ * @author WechatFE
+ */
+
+/**
+ * vConsole System Tab
+ *
+ * 2017.04.02 扩展
+ * @author startheart (sgoddon@163.com)
  */
 
 import * as tool from '../lib/tool.js';

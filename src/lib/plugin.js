@@ -1,3 +1,15 @@
+/**
+ * vConsole Plugin Class
+ *
+ * @author WechatFE
+ */
+
+/**
+ * vConsole Plugin Class
+ *
+ * 2017.04.02 扩展
+ * @author startheart (sgoddon@163.com)
+ */
 
 class DidiConsolePlugin {
 

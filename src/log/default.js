@@ -1,3 +1,15 @@
+/**
+ * vConsole Default Tab
+ *
+ * @author WechatFE
+ */
+
+/**
+ * vConsole Default Tab
+ *
+ * 2017.04.02 扩展
+ * @author startheart (sgoddon@163.com)
+ */
 
 import $ from '../lib/query.js';
 import * as tool from '../lib/tool.js';

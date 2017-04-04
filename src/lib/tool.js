@@ -1,3 +1,15 @@
+/**
+ * Utility Functions
+ *
+ * @author WechatFE
+ */
+
+/**
+ * Utility Functions
+ *
+ * 2017.04.02 扩展
+ * @author startheart (sgoddon@163.com)
+ */
 
 /**
  * get formatted date by timestamp

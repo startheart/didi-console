@@ -1,7 +1,14 @@
 /**
  * A Front-End Console Panel for Mobile Webpage
  *
- * @author sgoddon@163.com
+ * @author WechatFE
+ */
+
+/**
+ * A Front-End Console Panel for Mobile Webpage
+ *
+ * 2017.04.02 扩展
+ * @author startheart (sgoddon@163.com)
  */
 
 // classes

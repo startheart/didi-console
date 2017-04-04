@@ -1,3 +1,15 @@
+/**
+ * vConsole core class
+ *
+ * @author WechatFE
+ */
+
+/**
+ * vConsole core class
+ *
+ * 2017.04.02 扩展
+ * @author startheart (sgoddon@163.com)
+ */
 
 import pkg from '../../package.json';
 import * as tool from '../lib/tool.js';
