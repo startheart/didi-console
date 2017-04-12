@@ -190,6 +190,8 @@ class DidiConsole {
    */
   _bindEvent() {
     let that = this;
+    let winWidth = Math.max(document.documentElement.offsetWidth, document.documentElement.clientWidth)
+      let winHeight = Math.max(document.documentElement.offsetHeight, document.documentElement.clientHeight)
 
     // drag & drop switch button
     let $switch = $.one('.vc-switch', that.$dom);
@@ -208,17 +210,18 @@ class DidiConsole {
       tool.setStorage('switch_y', that.switchPos.y);
     });
     $.bind($switch, 'touchmove', function(e) {
+
       if (e.touches.length > 0) {
         let offsetX = e.touches[0].pageX - that.switchPos.startX,
             offsetY = e.touches[0].pageY - that.switchPos.startY;
         let x = that.switchPos.x - offsetX,
             y = that.switchPos.y - offsetY;
         // check edge
-        if (x + $switch.offsetWidth > document.documentElement.offsetWidth) {
-          x = document.documentElement.offsetWidth - $switch.offsetWidth;
+        if (x + $switch.offsetWidth > winWidth) {
+          x = winWidth - $switch.offsetWidth;
         }
-        if (y + $switch.offsetHeight > document.documentElement.offsetHeight) {
-          y = document.documentElement.offsetHeight - $switch.offsetHeight;
+        if (y + $switch.offsetHeight > winHeight) {
+          y = winHeight - $switch.offsetHeight;
         }
         if (x < 0) { x = 0; }
         if (y < 0) { y = 0; }
