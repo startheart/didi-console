@@ -5,7 +5,8 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
   devtool: false,
   entry: {
-    didiConsole : './src/didiConsole.js'
+    didiConsole : './src/didiConsole.js',
+    ['didiConsole-' + pkg.version]: './src/didiConsole.js'
   },
   output: {
     path: './dist',
@@ -43,7 +44,7 @@ module.exports = {
         warnings: false
       }
     })
-    // ,new ExtractTextPlugin('[name].min.css') // 将css独立打包
+    ,new ExtractTextPlugin('[name].min.css') // 将css独立打包
   ]
 
 };
